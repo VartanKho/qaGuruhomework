@@ -16,7 +16,7 @@ public class TestStudentRegistration extends TestBase{
         $("#firstName").setValue("Lyffi");
         $("#lastName").setValue("Mugivara");
         $("#userEmail").setValue("Lyffi@gmail.com");
-        $(".custom-control-label").click();
+        $("#genterWrapper").$(byText("Male")).click();
         $("#userNumber").setValue("9999999999");
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").$(byText("July")).click();
